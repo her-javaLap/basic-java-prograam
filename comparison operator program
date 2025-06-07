@@ -1,0 +1,27 @@
+public class ComparisonExample {
+    public static void main(String[] args) {
+        int a = 10;  // predefined value
+        int b = 20;  // predefined value
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        // Comparison operations
+        System.out.println("a == b: " + (a == b));
+        System.out.println("a != b: " + (a != b));
+        System.out.println("a > b: " + (a > b));
+        System.out.println("a < b: " + (a < b));
+        System.out.println("a >= b: " + (a >= b));
+        System.out.println("a <= b: " + (a <= b));
+    }
+}
+output:-
+a = 10
+b = 20
+a == b: false
+a != b: true
+a > b: false
+a < b: true
+a >= b: false
+a <= b: true
+
