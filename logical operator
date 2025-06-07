@@ -1,0 +1,24 @@
+public class LogicalOperatorsExample {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        // Logical AND
+        System.out.println("a > 5 && b < 10: " + (a > 5 && b < 10)); // true && true
+
+        // Logical OR
+        System.out.println("a > 15 || b < 10: " + (a > 15 || b < 10)); // false || true
+
+        // Logical NOT
+        System.out.println("!(a == b): " + !(a == b)); // !false → true
+    }
+}
+output:-
+a = 10
+b = 5
+a > 5 && b < 10: true
+a > 15 || b < 10: true
+!(a == b): true
