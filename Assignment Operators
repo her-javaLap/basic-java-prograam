@@ -1,0 +1,25 @@
+public class AssignmentExample {
+    public static void main(String[] args) {
+        int a = 10;  // basic assignment
+        System.out.println("Initial value: " + a);
+        a += 5;
+        System.out.println("After += 5: " + a);
+        a -= 3;
+        System.out.println("After -= 3: " + a);
+        a *= 2;
+        System.out.println("After *= 2: " + a);
+        a /= 4;
+        System.out.println("After /= 4: " + a);
+        a %= 3;
+        System.out.println("After %= 3: " + a);
+    }
+}
+
+
+output:Initial value: 10  
+After += 5: 15  
+After -= 3: 12  
+After *= 2: 24  
+After /= 4: 6  
+After %= 3: 0
+
