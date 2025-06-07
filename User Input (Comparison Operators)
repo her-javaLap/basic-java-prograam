@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class ComparisonExample {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Take two numbers as input
+        System.out.print("Enter first number: ");
+        int a = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = input.nextInt();
+
+        System.out.println("Comparison operations:");
+        System.out.println("a == b: " + (a == b));
+        System.out.println("a != b: " + (a != b));
+        System.out.println("a > b: " + (a > b));
+        System.out.println("a < b: " + (a < b));
+        System.out.println("a >= b: " + (a >= b));
+        System.out.println("a <= b: " + (a <= b));
+    }
+}
+  output:-
+Enter first number: 5
+Enter second number: 10
+a == b: false
+a != b: true
+a > b: false
+a < b: true
+a >= b: false
+a <= b: true
