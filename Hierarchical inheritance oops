@@ -1,0 +1,31 @@
+//Hierarchical inheritance OOPs in Java
+
+class car{
+    void  display()
+    {
+        System.out.println("toycar");
+    }
+} class bike extends car
+{
+    void message()
+    {
+        System.out.println(" toybike");
+    }
+}
+class  cycle extends  car{
+    void show()
+    {
+        System.out.println("toyecycle");
+    }
+}
+public class day1 extends car{
+    public static void main(String[]args)
+    {
+        cycle a=new cycle();
+        a.display();
+        a.show();
+        bike b=new bike();
+        b.display();
+        b.message();
+    }
+}
