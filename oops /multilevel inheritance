@@ -1,0 +1,38 @@
+
+//multilevel inheritance
+
+
+class cat{
+    void display()
+    {
+        System.out.println("mewwwwoo");
+     }
+}
+class dog extends cat{
+    void message()
+    {
+        System.out.println(" bock bock");
+    }
+}
+class cow extends dog{
+    void printl()
+    {
+        System.out.println("moooo");
+    }
+}
+class sheep extends cow{
+    void show()
+    {
+        System.out.println("baaaa");
+    }
+}
+public class Main extends sheep{
+    public static void main(String[]args)
+    {
+        sheep a= new sheep();
+        a.show();
+        a.printl();
+        a.message();
+        a.display();
+    }
+}
