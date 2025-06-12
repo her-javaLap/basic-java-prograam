@@ -1,0 +1,17 @@
+interface calcu{
+    int add(int a,int b);
+}
+class sum implements calcu{
+    public int add(int a,int b)
+    {
+        return a+b;
+    }
+}
+public class lambda2 {
+    public static void main(String[]args)
+    {
+        sum v=new sum();
+        int result=v.add(5,2);
+        System.out.println("sum is:" +result);
+    }
+}
