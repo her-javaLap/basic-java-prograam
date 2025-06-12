@@ -1,0 +1,25 @@
+//single line inheritance
+
+class hello{
+    void show()
+    {
+        System.out.println("helllo i am komla");
+    }
+}
+class hello1 extends hello{
+    void print()
+    {
+        System.out.println("kushwah");
+    }
+}
+public class Mian extends hello1
+{
+    public static void main(String[]args)
+    {
+        hello1 a=new hello1();
+        a.show();
+        a.print();
+    }
+
+}
+
