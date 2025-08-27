@@ -1,0 +1,6 @@
+int x = 10;
+if (x > 20) {
+    System.out.println("x is greater than 20");
+} else {
+    System.out.println("x is 20 or less");
+}
