@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class practice_1 {
+    public static void main(String[]args) {
+        Scanner sc = new Scanner(System.in);
+
+        //----loop----- condition check in starding if its true then it work otherwise it its not work
+
+        //for (int i = 0; i <= 10;  i++) {
+          //  System.out.println("counting: " +i);
+
+        // -----while loop------ checking starding condition if condition true its work otherwise its not work
+
+       // int i=0;
+       // while(i<10){
+           // System.out.println(i);
+           // i++;
+
+            //------do while loop-----   if condition is true or false  but it work at least one time
+        int i=0;
+do{
+    System.out.println(i);
+    i++;
+        }while(i<11);
+    }
+
+}
