@@ -1,0 +1,84 @@
+🔹 1. Function
+
+A function is a block of code that:
+
+Performs a specific task.
+
+Can take input (parameters) and return output.
+
+Can be reused multiple times.
+
+💡 In Java, all functions must belong to a class. So technically, Java doesn't have standalone functions like some other languages (e.g., Python, JavaScript). Instead, they are called methods.
+
+🔹 2. Method
+
+A method is basically a function that belongs to a class.
+
+In Java:
+
+Every function is a method.
+
+Methods are defined inside classes.
+
+✅ Example: Java Method
+public class Example {
+
+    // This is a method
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        int result = add(5, 3); // calling the method
+        System.out.println("Sum is: " + result);
+    }
+}
+
+🔍 Breakdown:
+
+add(int a, int b) is a method.
+
+It takes two integers and returns their sum.
+
+It’s called from main().
+
+✅ Difference Between Function and Method (Summary)
+Feature	Function (general concept)	Method (Java-specific)
+Belongs to	May or may not belong to a class	Always belongs to a class
+Standalone	Can be standalone	Cannot be standalone in Java
+Invocation	Called directly	Called via object or class (if static)
+Java	Not technically a term in Java	Preferred term in Java
+🔹 Types of Methods in Java:
+
+Static Method
+
+Belongs to the class, not objects.
+
+Can be called without creating an object.
+
+public static void greet() {
+    System.out.println("Hello!");
+}
+
+
+Instance Method
+
+Belongs to an object of the class.
+
+You need to create an object to call it.
+
+public void sayHi() {
+    System.out.println("Hi!");
+}
+
+🧠 Final Tip:
+
+In Java, always define your logic inside methods. Think of "method" as Java’s version of a function.
+
+Would you like to see:
+
+The difference between static and non-static methods?
+
+Or how to use methods with objects?
+
+Let me know!
